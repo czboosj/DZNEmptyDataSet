@@ -437,15 +437,18 @@
 					};
 					F58A3E3A1E66AEE90086E0EF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZA4V5RJLK;
 						ProvisioningStyle = Manual;
 					};
 					F58A3E621E66B5410086E0EF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZA4V5RJLK;
 						ProvisioningStyle = Manual;
 					};
 					F5BE15241E713E2100F6FBEA = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = VZA4V5RJLK;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -790,7 +793,8 @@
 			baseConfigurationReference = 52A7392318BDCC558DB8399F /* Pods-DZNEmptyDataSetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = DZNEmptyDataSetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzn.DZNEmptyDataSetTests;
@@ -803,7 +807,8 @@
 			baseConfigurationReference = 273E51E5FA96821F8F582949 /* Pods-DZNEmptyDataSetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = DZNEmptyDataSetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzn.DZNEmptyDataSetTests;
@@ -816,12 +821,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = "$(SRCROOT)/Applications/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzn.Applications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 			};
 			name = Debug;
 		};
@@ -830,12 +837,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = "$(SRCROOT)/Applications/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzn.Applications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 			};
 			name = Release;
 		};
@@ -843,11 +852,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = Colors/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzn.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 			};
 			name = Debug;
 		};
@@ -855,11 +868,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VZA4V5RJLK;
 				INFOPLIST_FILE = Colors/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzn.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e8718657-9753-4ed3-abc1-1049437162ef";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard App ID *";
 			};
 			name = Release;
 		};
@@ -909,6 +926,7 @@
 				F5BE153B1E713E2100F6FBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
